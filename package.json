@@ -5,8 +5,8 @@
   "author": "Reve",
   "license": "ISC",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
   },
   "devDependencies": {
     "vuepress": "^1.8.2",
