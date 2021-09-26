@@ -1,7 +1,7 @@
 module.exports = {
 	title: 'Hello VuePress',
 	description: 'Just playing around',
-	dest: 'target',
+	dest: 'docs',
 	base: '/blog/',
 	head: [
 		['meta', {name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no'}]
