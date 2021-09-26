@@ -1,0 +1,10 @@
+# IDEA
+.idea
+*.iml
+
+# NODE
+node
+node_modules
+
+# Result
+target
