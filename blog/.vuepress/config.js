@@ -1,6 +1,6 @@
 module.exports = {
-	title: 'Revelope Blog',
-	description: 'Reve\'s development blog',
+	title: 'Revelope',
+	description: 'Developer Reve\'s Blog',
 	dest: 'docs',
 	base: '/blog/',
 	head: [

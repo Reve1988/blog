@@ -7,7 +7,7 @@
           <div
               class="navigation-item navigation-title"
               @click="moveToHome">
-            Blog Title
+            {{ $siteTitle }}
           </div>
           <b-dropdown
               text="Category"
