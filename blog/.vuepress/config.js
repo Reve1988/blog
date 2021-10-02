@@ -1,6 +1,6 @@
 module.exports = {
-	title: 'Hello VuePress',
-	description: 'Just playing around',
+	title: 'Revelope Blog',
+	description: 'Reve\'s development blog',
 	dest: 'docs',
 	base: '/blog/',
 	head: [
