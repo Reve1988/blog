@@ -22,14 +22,6 @@ module.exports = {
 						layout: 'CategoryIndex',
 						itemLayout: 'Post',
 						itemPermalink: '/post/java/:slug',
-					},
-					{
-						id: 'Python',
-						dirname: 'post/python',
-						path: '/post/python/index.html',
-						layout: 'CategoryIndex',
-						itemLayout: 'Post',
-						itemPermalink: '/post/python/:slug',
 					}
 				]
 			},
