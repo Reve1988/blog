@@ -1,12 +1,15 @@
 <template>
   <div class="content-box">
+    <h1>{{ $page.frontmatter.title }}</h1>
+    <span>{{ $page.frontmatter.author }} - {{ $page.frontmatter.date }}</span>
+    <hr/>
     <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Contents",
+  name: "Contents"
 }
 </script>
 
@@ -19,5 +22,15 @@ export default {
   border-radius: 0.25rem;
   background-color: #ffffff;
   box-shadow: 0 0 30px 5px #9f9f9f;
+}
+
+span {
+  color: #999999;
+  font-size: 14px;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 </style>
