@@ -1,8 +1,8 @@
 <template>
   <div class="content-box">
-    <h1>{{ $page.frontmatter.title }}</h1>
-    <span>{{ $page.frontmatter.author }} - {{ $page.frontmatter.date }}</span>
-    <hr/>
+    <h1 v-if="$page.frontmatter.title">{{ $page.frontmatter.title }}</h1>
+    <span v-if="$page.frontmatter.author && $page.frontmatter.date">{{ $page.frontmatter.author }} - {{ $page.frontmatter.date }}</span>
+    <hr v-if="$page.frontmatter.title || ($page.frontmatter.author && $page.frontmatter.date)"/>
     <slot></slot>
   </div>
 </template>
