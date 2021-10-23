@@ -31,6 +31,6 @@ span {
 
 hr {
   margin-top: 1rem;
-  margin-bottom: 0;
+  margin-bottom: 2rem;
 }
 </style>
