@@ -17,13 +17,13 @@
         <b-button
             variant="light"
             @click="movePreviousPage"
-            :disabled="currentPage <= 1">
+            v-if="currentPage > 1">
           < 이전
         </b-button>
         <b-button
             variant="light"
             @click="moveNextPage"
-            :disabled="currentPage >= totalPage">
+            v-if="currentPage < totalPage">
           다음 >
         </b-button>
       </b-row>
