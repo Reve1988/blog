@@ -19,9 +19,9 @@
           </b-col>
           <b-col :md="post.image ? 9 : 12">
             <b-card-body :title="post.title">
-              <b-card-text>
+              <b-card-text class="text-ellipsis">
                 {{ post.description }}<br/>
-                {{ post.date }}
+                <span class="date">{{ post.author }} - {{ post.date }}</span>
               </b-card-text>
             </b-card-body>
           </b-col>
@@ -68,6 +68,7 @@ export default {
               description: page.frontmatter.description,
               image: page.frontmatter.image ? this.$withBase(page.frontmatter.image) : '',
               date: page.frontmatter.date,
+              author: page.frontmatter.author,
             }
           }).sort((a, b) => new Date(b.date) - new Date(a.date));
     },
@@ -132,5 +133,16 @@ export default {
   width: 100%;
   text-align: center;
   margin-top: 1rem;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.date {
+  color: #999999;
+  font-size: 14px;
 }
 </style>
