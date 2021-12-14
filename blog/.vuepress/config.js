@@ -24,6 +24,14 @@ module.exports = {
 						layout: 'CategoryIndex',
 						itemLayout: 'Post',
 						itemPermalink: '/post/java/:slug',
+					},
+					{
+						id: 'HTML_CSS',
+						dirname: 'post/html-css',
+						path: '/post/html-css/index.html',
+						layout: 'CategoryIndex',
+						itemLayout: 'Post',
+						itemPermalink: '/post/html-css/:slug',
 					}
 				]
 			},
