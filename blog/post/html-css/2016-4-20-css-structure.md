@@ -5,7 +5,7 @@ author : Reve
 date: 2016/04/20
 ---
 
-CSS(Cascading Style Sheet)는 Document가 사용자에게 어떻게 보여질가를 기술하는 언어입니다. CSS는 기본적으로 선택자와 속성, 값으로 이루어져 있습니다.
+`CSS(Cascading Style Sheet)`는 Document가 사용자에게 어떻게 보여질가를 기술하는 언어입니다. CSS는 기본적으로 선택자와 속성, 값으로 이루어져 있습니다.
 
 선택자 {
 	속성: 값
