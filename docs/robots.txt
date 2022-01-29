@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://blog.revelope.kr/sitemap.xml
