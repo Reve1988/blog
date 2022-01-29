@@ -9,6 +9,9 @@ module.exports = {
 		["script", {async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"}],
 		["script", {}, ["window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-R056XQ43KK');"]],
 	],
+	locales: {
+		'/': {lang: 'ko-KR'}
+	},
 	markdown: {
 		lineNumbers: true,
 	},
