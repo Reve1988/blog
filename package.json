@@ -9,8 +9,9 @@
 		"build": "vuepress build blog"
 	},
 	"devDependencies": {
-		"vuepress": "^1.8.2",
 		"@vuepress/plugin-blog": "^1.9.4",
-		"bootstrap-vue": "^2.21.2"
+		"bootstrap-vue": "^2.21.2",
+		"vuepress": "^1.8.2",
+		"vuepress-plugin-sitemap": "^2.3.1"
 	}
 }

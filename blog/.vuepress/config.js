@@ -36,5 +36,11 @@ module.exports = {
 				]
 			},
 		],
+		[
+			"sitemap",
+			{
+				hostname: "https://blog.revelope.kr/"
+			}
+		],
 	],
 }
